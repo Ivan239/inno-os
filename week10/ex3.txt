@@ -1,0 +1,11 @@
+commands from exercise are:
+
+chmod ugo-x _ex3.txt
+chmod uo+rwx _ex3.txt
+chmod g=u _ex3.txt
+
+they dont have output, but there are answers:
+
+066 is 110 110 000 or rw-rw----, it is read-write permissions for user and group
+775 is 111 111 101 or rwxrwxr-x, it is all permissions for user and group, but only read-execute for others
+777 is 111 111 111 or rwxrwxrwx, it is all permissions for all
