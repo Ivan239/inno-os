@@ -1,0 +1,67 @@
+    1  ssh -X ivan239@osc-1.edu.innopolis.ru
+    2  mkdir ~/week1
+    3  cd ~/week1
+    4  ls /usr/bin | grep gcc | sort -r
+    5  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+    6  man -h | head
+    7  head -n 3 < ex1.txt
+    8  pwd
+    9  ls
+   10  stderr
+   11  head
+   12  history > ex2.txt
+   13  head -n 3 < ex2.txt
+   14  head -n 100 < ex2.txt
+   15  gedit ~/week1/main.c
+   16  sudo apt install gedit
+   17  gedit ~/week1/main.c
+   18  sudo apt install gedit
+   19  gcc
+   20  sudo apt install gcc
+   21  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   22  head 3 -n < ex1.txt
+   23  head -n 10 < ex1.txt
+   24  now=`date`
+   25  head now
+   26  print = now
+   27  print now
+   28  `date sleep 3`
+   29  date
+   30  sleep 3
+   31  ~/week1/ex3.sh
+   32  ex3.sh
+   33  whoami
+   34  hostname
+   35  touch ex3.sh
+   36  cat > ex3.sh
+   37  sudo apt update
+   38  gedit
+   39  sudo apt install gedit
+   40  touch ex3.sh
+   41  cat > ex3.sh
+   42  echo "date\\nsleep 3\\ndate" > ~/week1/ex3.sh
+   43  sh ~/week1/ex3.sh
+   44  echo "date\\sleep 3\\date" > ~/week1/ex3.sh
+   45  sh ~/week1/ex3.sh
+   46  sudo apt-get install sleep
+   47  sudo apt update sleep
+   48  sudo apt install sleep
+   49  echo "date
+   50  sleep
+   51  3
+   52  ndate
+   53  "
+   54  echo "date\\nsleep 3\\ndate" > ~/week1/ex3.sh
+   55  sh ex3.sh
+   56  sh ~/week1/ex3.sh
+   57  gedit ex3.sh
+   58  nano ex3.sh
+   59  sh ~/week1/ex3.sh
+   60  head -n 3 < ex3.sh
+   61  sh ~/week1/ex3.sh
+   62  mkdir ~/week1
+   63  cd ~/week
+   64  cs ~/week1
+   65  cd ~/week1
+   66  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   67  history > ~/week1/ex2.txt
